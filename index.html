@@ -40,7 +40,7 @@
                 </div>
             </div>
         </header>
-
+<!-- Main -->
         <main>
             <section>
                 <div class="container">
@@ -225,7 +225,7 @@
                     </div>
                 </div>
             </section>
-
+<!-- People Feedback -->
             <section>
                 <div class="container">
                     <h6 class="my-8">PEOPLE ARE PRAISING MAXCOACH</h6>
@@ -238,16 +238,22 @@
                     <div class="people-card mx-4">
                         <img src="img/testimonial-avata-01.jpg" alt="">
                         <p>I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.</p>
+                        <h5 class="my-8">MINA HOLLACE</h5>
+                        <h6>/ Freelancer</h6>
                         
                     </div>
                     <div class="people-card mx-4">
                         <img src="img/testimonial-avata-02.jpg" alt="">
                         <p>MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.</p>
+                        <h5 class="my-8">MINA HOLLACE</h5>
+                        <h6>/ Freelancer</h6>
 
                     </div>
                     <div class="people-card mx-4">
                         <img src="img/testimonial-avata-04.jpg" alt="">
                         <p>| am happy with their arrangement of lessons and subjects. They reflect a scientific investigation.</p>
+                        <h5 class="my-8">MINA HOLLACE</h5>
+                        <h6>/ Freelancer</h6>
 
                     </div>
             </section>
@@ -264,14 +270,16 @@
                 </div>
             </section>
         </main>
-
+<!-- Footer -->
         <footer>
             <div class="container">
                 <div class="right pippo">
                     <h5>Address</h5>
-                    <p>382 NE 191st St # 87394 Miami, FL 33179-3899</p>
-                    <p>+1  (305) 547-9909  (9am - 5pm EST, Monday - Friday)</p>
-                    <p>support@maxcoach.com</p>
+                    <ul>
+                        <li v-for="link in linkFootAddress">
+                            <a :href="link.url">{{ link.name }}</a>
+                        </li>
+                    </ul>
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
                     <a href="#"><i class="fab fa-twitter-square"></i></a>
                     <a href="#"><i class="fab fa-instagram-square"></i></a>
@@ -279,23 +287,27 @@
                 </div>
                 <div class="foot-right">
                     <div class="left pippo">
+                        <h5>Explore</h5>
                         <ul>
-                            <li v-for="link in linkFoot">
+                            <li v-for="link in linkFootOne">
                                 <a :href="link.url">{{ link.name }}</a>
                             </li>
                         </ul>
                     </div>
                     <div class="left pippo">
-                        <p>Success story</p>
-                        <p>Courses</p>
-                        <p>Contact us</p>
+                        <ul>
+                            <li v-for="link in linkFootTwo">
+                                <a :href="link.url">{{ link.name }}</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="left pippo">
                         <h5>Information</h5>
-                        <p>Membership</p>
-                        <p>Purchase guide</p>
-                        <p>Privacy policy</p>
-                        <p>Terms of services</p>
+                        <ul>
+                            <li v-for="link in linkFootThree">
+                                <a :href="link.url">{{ link.name }}</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

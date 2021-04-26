@@ -1,10 +1,10 @@
 @import 'src/scss/partials/_navbar.scss';
 
 header{
-width: 100vw;
-height: 800px;
-position: relative;
-overflow: hidden;
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
     &:before {
         z-index: -1;
         content: "";
@@ -17,11 +17,11 @@ overflow: hidden;
         // background-repeat: no-repeat;
         transform: rotate(180deg);
         transform: scaleY(-1);
-}
+    }
 }
 
 .left{
-width: $w-100;
+    width: $w-100;
 
 h2{
     color: $brand_primary;

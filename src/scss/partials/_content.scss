@@ -143,9 +143,10 @@ section{
 .people-card{
     width: 350px;
     height: 350px;
-    background-color: blue;
+    box-shadow: $light_box_shadow;
     position: relative;
     margin-top: 100px;
+    text-align: center;
     
     img{
         width: 120px;
@@ -153,5 +154,9 @@ section{
         position: absolute;
         right: 120px;
         bottom: 80%;
+    }
+
+    p{
+        margin-top: 100px;
     }
 }

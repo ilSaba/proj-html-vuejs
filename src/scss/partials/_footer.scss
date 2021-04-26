@@ -15,8 +15,14 @@ footer{
     width: 150px;
     margin-bottom: 150px;
 
-    p{
+    li{
+        @include li-style-none;
+    }
+
+    a{
+        text-decoration: $a_dec_none;
         color: $paragraph_color;
+        font-size: 12px;
     }
 }
 

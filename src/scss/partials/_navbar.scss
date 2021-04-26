@@ -38,6 +38,7 @@ nav{
 
     ul li{
         @include li-style-none;
+        display: inline-block;
         font-size: 12px;
         margin: 0 10px;
         position: relative;
