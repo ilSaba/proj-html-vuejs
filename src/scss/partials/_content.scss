@@ -13,6 +13,8 @@ section{
     }
 }
 
+// Build Your Dream
+
 .card{
     width: 200px;
     height: 400px;
@@ -87,6 +89,7 @@ section{
     }
 }
 
+// Numbers HR
 
 .numbers{
     background-color: #F0EFEF;
@@ -139,6 +142,8 @@ section{
     border-radius: 5px;
 }
 
+// Tutor
+
 
 .people-card{
     width: 350px;
@@ -152,11 +157,31 @@ section{
         width: 120px;
         border-radius: 50%;
         position: absolute;
-        right: 120px;
+        right: 50%;
         bottom: 80%;
+        transform: translate(+50%, 0);
     }
 
     p{
         margin-top: 100px;
+    }
+}
+
+// Get started
+
+.m-t{
+    background-color: $galley;
+    position: relative;
+    .container{
+        .dec1{
+            position: absolute;
+            right: 15%;
+            width: 75px;
+        }
+
+        .dec2{
+            position: absolute;
+            left: 15%;
+        }
     }
 }

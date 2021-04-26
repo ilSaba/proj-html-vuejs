@@ -29,14 +29,6 @@ body {
   margin: 0 auto;
 }
 
-.m-b {
-  margin-bottom: 100px;
-}
-
-.m-t {
-  margin-top: 100px;
-}
-
 button {
   border-radius: 5px;
   height: 50px;
@@ -80,6 +72,14 @@ button:hover {
   z-index: -1;
 }
 
+.m-b {
+  margin-bottom: 100px;
+}
+
+.m-t {
+  margin-top: 100px;
+}
+
 .my-1 {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
@@ -101,8 +101,8 @@ button:hover {
 }
 
 .my-5 {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .my-8 {
@@ -356,15 +356,30 @@ section .today {
   width: 120px;
   border-radius: 50%;
   position: absolute;
-  right: 120px;
+  right: 50%;
   bottom: 80%;
+  transform: translate(50%, 0);
 }
 .people-card p {
   margin-top: 100px;
 }
 
+.m-t {
+  background-color: #F0EFEF;
+  position: relative;
+}
+.m-t .container .dec1 {
+  position: absolute;
+  right: 15%;
+  width: 75px;
+}
+.m-t .container .dec2 {
+  position: absolute;
+  left: 15%;
+}
+
 footer {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 footer p {
   font-size: 12px;
