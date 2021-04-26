@@ -1,0 +1,45 @@
+nav{
+    @include center-flex;
+    width: $w-70;
+    height: 100px;
+    
+    img{
+    width: $width-logo;
+    height: $heigth-logo;
+    }
+
+    .li-nav{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    input{
+        width: 200px;
+        border-radius: 5px;
+        height: 35px;
+        
+        background-color: $white;
+    }
+
+    .fa-search{
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 20px;
+        color: $i_tag;
+        transform: translate(0, -50%);
+    }
+
+    a{
+        text-decoration: $a_dec_none;
+        color: $brand_primary;
+    }
+
+    ul li{
+        @include li-style-none;
+        font-size: 12px;
+        margin: 0 10px;
+        position: relative;
+    }
+} 

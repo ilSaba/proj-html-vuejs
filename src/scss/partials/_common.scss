@@ -1,0 +1,131 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: $brand_primary;
+}
+
+.container{
+    @include center-flex;
+    width: $w-70;
+}
+
+.center-flex{
+    @include center-flex;
+}
+
+.center{
+    @include center;
+}
+
+.m-b{
+    margin-bottom: 100px;
+}
+
+.m-t{
+    margin-top: 100px;
+}
+
+button{
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    font-weight: bold;
+    color: $white;
+    background-color: $btn_color;
+    cursor: pointer;
+    &:hover{
+        background-color: $brand_primary;
+    }
+}
+
+.p-black{
+    color: black;
+}
+
+.fa-check{
+    color: $paragraph_color;
+}
+
+.img-overlay{
+    position: relative;
+}
+
+.img-underlay{
+    position: absolute;
+    left: 300px;
+    z-index: -1;
+}
+
+.img-underlay-2{
+    position: absolute;
+    right: 20%;
+    z-index: -1;
+}
+
+.img-underlay-3{
+    position: absolute;
+    left: 10%;
+    z-index: -1;
+}
+
+
+.my-1{
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.my-2{
+    margin-top: 0.50em;
+    margin-bottom: 0.50em;
+}
+
+.my-3{
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.my-4{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.my-5{ 
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.my-8{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.my-10{
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+
+
+.mx-1{
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+.mx-2{
+    margin-left: 0.50em;
+    margin-right: 0.50em;
+}  
+
+.mx-3{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+
+.mx-4{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.mx-5{
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}

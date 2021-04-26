@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Schooling</title>
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<!-- CSS Link -->
+    <link rel="stylesheet" href="dist/css/master.css">
+</head>
+<body>
+    <div id="root">
+        <header>
+            <nav>
+                <img src="img/dark-logo.png" alt="">
+                <div class="li-nav">
+                    <ul>
+                        <li v-for="link in linkNav">
+                            <a :href="link.url">{{ link.name }}<i class="fas fa-chevron-down mx-2"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i class="far fa-user-circle"></i></a></li>
+                        <li><input type="text" placeholder="   Search..."><i class="fas fa-search"></i></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="left">
+                    <h2>Complete Your <br> Dreams in JavaS <br> Programming</h2>
+                    <p class="my-4">Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
+                    <button><i class="fas fa-download mx-3"></i>Download Free E-book</button>
+                </div>
+                <div class="right">
+                    <img src="img/home-5-hero-image-279x300.png" alt="">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="container">
+                    <h6 class="my-8">START LEARNING CODING LANGUAGES</h6>
+                </div>
+                <div class="container">
+                    <h1>Build Your Dream &nbsp</h1>
+                    <h1 class="today">TODAY</h1>
+                </div>
+                <div class="container">
+                    <div class="card">
+                        <img src="img/home-5-image-box-01.png" alt="">
+                        <h3>Idea Discussion</h3>
+                        <p>Get teamed up with the specialists who work and teach coding for years at famous universities.</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/home-5-image-box-02.png" alt="">
+                        <h3>Web Development</h3>
+                        <p>Learn to start building a webpage from scratch. You decide your own pace, course and speed.</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/home-5-image-box-03.png" alt="">
+                        <h3>System Administration</h3>
+                        <p>Learners are encouraged to study the mechanism and structure of system administration.</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/home-5-image-box-04.png" alt="">
+                        <h3>Graphic Design</h3>
+                        <p>Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness.</p>
+                    </div>
+                </div>
+                <div class="container space-b">
+                    <h5><a href="#">Start now </a><i class="fas fa-arrow-right"></i></h5>
+                    <h5><a href="#">Start now </a><i class="fas fa-arrow-right"></i></h5>
+                    <h5><a href="#">Start now </a><i class="fas fa-arrow-right"></i></h5>
+                    <h5><a href="#">Start now </a><i class="fas fa-arrow-right"></i></h5>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="left">
+                        <img class="img-overlay my-10" src="img/about-us-03-image-01.png" alt="">
+                        <img class="img-underlay my-10" src="img/underlay-shape-lilla.svg" alt="">
+                    </div>
+                    <div class="right">
+                        <h6><span class="today">DREAM WITH </span><b>MAXCOACH</b></h6>
+                        <h1 class="my-3">Construct A <span class="today">Stunning </span>Career Perspective</h1>
+                        <div class="window-main">
+                            <div class="window">
+                                <h4>Multiple Platforms Supported for Teaching & Studying</h4>
+                            </div>
+                                <div class="window-bottom">
+                                    <p>MaxCoach supports the act of teaching and learning on multiple platforms like online or offline via material downloads. We know things aren't supposed to be devoured in a short time, you can always access our knowledge base from any device.</p>
+                                </div>
+                            </div>
+                            <div class="pop-up my-5">
+                                <p>Multiple Course Participation at the Same Time</p>
+                            </div>
+                        <div class="pop-up my-5">
+                            <p>Track Study Progress & Deliver Prompt Feedback</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container numbers">
+                    <div class="center">
+                        <h1>1.926</h1>
+                        <h3>FINISHED SESSIONS</h3>
+                    </div>
+                    <div class="center">
+                        <h1>3.092+</h1>
+                        <h3>ENROLLED LEARNERS</h3>
+                    </div>
+                    <div class="center">
+                        <h1>200</h1>
+                        <h3>ONLINE INSTRUCTORS</h3>
+                    </div>
+                    <div class="center">
+                        <h1>100%</h1>
+                        <h3>SATISFACTION RATE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="m-b">
+                <div class="container">
+                    <h6 class="my-8">CHOOSE WHERE YOU'D LIKE TO BEGIN</h6>
+                </div>
+                <div class="container">
+                    <h1>Latest Featured &nbsp</h1>
+                    <h1 class="today">Courses</h1>
+                </div>
+                <div class="container">
+                    <div class="card teacher">
+                        <img class="featured-img" src="img/stock-full-hd-05-480x298.jpg" alt="">
+                        <div class="top-right">$40,00</div>
+                        <div class="writer my-3"><img src="img/d0d504142acfde820eef2f11feea6253.jpeg" alt=""><p>Blanche Fields</p></div>
+                        <h3>Learning to Write as a Professional Author</h3>
+                        <span><i class="far fa-file-word"></i> 20 Lessons</span>
+                        <span><i class="fas fa-user"></i> 50 Students</span>
+                    </div>
+                    <div class="card teacher">
+                        <img class="featured-img" src="img/stock-full-hd-03-480x298.jpg" alt="">
+                        <div class="top-right">$40,00</div>
+                        <div class="writer my-3"><img src="img/73ee246daf47502812ccefc84bf02898.jpeg" alt=""><p>Maggie Strickland</p></div>
+                        <h3>Customer-centric Info-Tech Strategies</h3>
+                        <span><i class="far fa-file-word"></i> 240 Lessons</span>
+                        <span><i class="fas fa-user"></i> 40 Students</span>
+                    </div>
+                    <div class="card teacher">
+                        <img class="featured-img" src="img/stock-full-hd-05-480x298.jpg" alt="">
+                        <div class="top-right">$40,00</div>
+                        <div class="writer my-3"><img src="img/73ee246daf47502812ccefc84bf02898.jpeg" alt=""><p>Maggie Strickland</p></div>
+                        <h3>Open Programming Courses for Everyone: Python</h3>
+                        <span><i class="far fa-file-word"></i> 19 Lessons</span>
+                        <span><i class="fas fa-user"></i> 33 Students</span>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="card teacher">
+                        <img class="featured-img" src="img/stock-full-hd-06-480x298.jpg" alt="">
+                        <div class="top-right">$40,00</div>
+                        <div class="writer my-3"><img src="img/d0d504142acfde820eef2f11feea6253.jpeg" alt=""><p>Blanche Fields</p></div>
+                        <h3>Academic Listening and Note-taking</h3>
+                        <span><i class="far fa-file-word"></i> 20 Lessons</span>
+                        <span><i class="fas fa-user"></i> 322 Students</span>
+                    </div>
+                    <div class="card teacher">
+                        <img class="featured-img" src="img/stock-full-hd-05-480x298.jpg" alt="">
+                        <div class="top-right">$40,00</div>
+                        <div class="writer my-3"><img src="img/73ee246daf47502812ccefc84bf02898.jpeg" alt=""><p>Maggie Strickland</p></div>
+                        <h3>Master jQuery in a Short Period of Time</h3>
+                        <span><i class="far fa-file-word"></i> 12 Lessons</span>
+                        <span><i class="fas fa-user"></i> 544 Students</span>
+                    </div>
+                    <div class="card teacher">
+                        <img class="featured-img" src="img/stock-full-hd-05-480x298.jpg" alt="">
+                        <div class="top-right">$40,00</div>
+                        <div class="writer my-3"><img src="img/d0d504142acfde820eef2f11feea6253.jpeg" alt=""><p>Blanche Fields</p></div>
+                        <h3>Introduction to Javascript for Beginners</h3>
+                        <span><i class="far fa-file-word"></i> 25 Lessons</span>
+                        <span><i class="fas fa-user"></i> 24 Students</span>
+                    </div>
+                </div>
+                <div class="container">
+                    <button>View all courses <i class="fas fa-arrow-right"></i></button>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="left">
+                        <h6 class="my-8">WHY HESITATE TO REGISTER?</h6>
+                        <h1>Learn At Your Own &nbsp</h1>
+                        <h1 class="today">Pace</h1>
+                        <p class="p-black my-3"><i class="fas fa-check mx-3"></i>Select & customize courses to your preferences</p>
+                        <p class="p-black my-3"><i class="fas fa-check mx-3"></i>Change the tutor and make arrangements</p>
+                        <p class="p-black my-3"><i class="fas fa-check mx-3"></i>Participate in events to join others</p>
+                        <p class="p-black my-3"><i class="fas fa-check mx-3"></i>Get the desired certificate delivered at house</p>
+                        <button class="my-5">Get started for free</button>
+                    </div>
+                    <div class="right">
+                        <img class="img-overlay" src="img/home-5-image-01.png" alt="">
+                        <img class="img-underlay-2" src="img/underlay-shape-grey.svg" alt="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left">
+                        <img class="img-overlay" src="img/home-5-image-02-222x300.png" alt="">
+                        <img class="img-underlay-3" src="img/underlay-shape-grey.svg" alt="">
+                    </div>
+                    <div class="left">
+                        <h6 class="my-8">WHAT ARE YOU LOOKING FOR?</h6>
+                        <h1>Learn on your </h1>
+                        <h1 class="today">mobile </h1>
+                        <h1>anytime!</h1>
+                        <p>Save lessons for later and revise or write notes at any time and on multiple devices on your way. Never interfere with activities of enjoyment or other precious moments.</p>
+                        <button class="my-5">Download Our App</button>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <h6 class="my-8">PEOPLE ARE PRAISING MAXCOACH</h6>
+                </div>
+                <div class="container">
+                    <h1>What make they &nbsp</h1>
+                    <h1 class="today">love us?</h1>
+                </div>
+                <div class="container">
+                    <div class="people-card mx-4">
+                        <img src="img/testimonial-avata-01.jpg" alt="">
+                        <p>I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.</p>
+                        
+                    </div>
+                    <div class="people-card mx-4">
+                        <img src="img/testimonial-avata-02.jpg" alt="">
+                        <p>MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.</p>
+
+                    </div>
+                    <div class="people-card mx-4">
+                        <img src="img/testimonial-avata-04.jpg" alt="">
+                        <p>| am happy with their arrangement of lessons and subjects. They reflect a scientific investigation.</p>
+
+                    </div>
+            </section>
+
+            <section class="m-t">
+                <div class="container">
+                    <h6><b>Start today for getting </b><span class="today">Online Certification</span></h6>
+                </div>
+                <div class="container">
+                    <h1>You can be your own guiding star with our help!</h1>
+                </div>
+                <div class="container">
+                    <button class="my-5">Get started now</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="right pippo">
+                    <h5>Address</h5>
+                    <p>382 NE 191st St # 87394 Miami, FL 33179-3899</p>
+                    <p>+1  (305) 547-9909  (9am - 5pm EST, Monday - Friday)</p>
+                    <p>support@maxcoach.com</p>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="foot-right">
+                    <div class="left pippo">
+                        <ul>
+                            <li v-for="link in linkFoot">
+                                <a :href="link.url">{{ link.name }}</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="left pippo">
+                        <p>Success story</p>
+                        <p>Courses</p>
+                        <p>Contact us</p>
+                    </div>
+                    <div class="left pippo">
+                        <h5>Information</h5>
+                        <p>Membership</p>
+                        <p>Purchase guide</p>
+                        <p>Privacy policy</p>
+                        <p>Terms of services</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <p>© 2020 Maxcoach. All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="dist/js/main.js"></script>
+</body>
+</html>

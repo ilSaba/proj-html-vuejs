@@ -1,0 +1,47 @@
+@import 'src/scss/partials/_navbar.scss';
+
+header{
+width: 100vw;
+height: 800px;
+position: relative;
+overflow: hidden;
+    &:before {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        width: 300%;
+        height: 200%;
+        top: -50%;
+        left: -50%;
+        background-image: url('./../../img/jumbo-overlay.svg');
+        // background-repeat: no-repeat;
+        transform: rotate(180deg);
+        transform: scaleY(-1);
+}
+}
+
+.left{
+width: $w-100;
+
+h2{
+    color: $brand_primary;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.my-4{
+    color: $paragraph_color;
+}
+}
+
+
+.container{
+    .right{
+        width: $w-100;
+
+    img{
+        width: 565px;
+    }
+}
+}

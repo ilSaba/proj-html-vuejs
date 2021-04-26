@@ -1,0 +1,26 @@
+footer{
+    padding: 100px 0;
+
+    p{
+        font-size: 12px;
+        @include my-1;
+    }
+
+    i{
+        margin-left: 20px;
+        color: $paragraph_color;
+    }
+}
+.pippo{
+    width: 150px;
+    margin-bottom: 150px;
+
+    p{
+        color: $paragraph_color;
+    }
+}
+
+.foot-right{
+    display: flex;
+    justify-content: space-between;
+}

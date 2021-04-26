@@ -1,0 +1,157 @@
+section{
+    h6{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    h1{
+        font-size: 40px;
+        flex-direction: row;
+    }
+    .today{
+        color: $paragraph_color;
+        font-weight: 300;
+    }
+}
+
+.card{
+    width: 200px;
+    height: 400px;
+
+    margin: 0 50px;
+    @include center;
+    margin-top: 100px;
+    text-align: center;
+
+    h3{
+        color: $black;
+        font-size: 15px;
+        @include my-1;
+    }
+
+    p{
+        @include my-1;
+        color: $paragraph_color;
+    }
+}
+
+.space-b{
+    justify-content: space-around;
+    
+    h5{
+        a{
+            color: $changed;
+            text-decoration: $a_dec_none;
+        }
+    }
+}
+
+.left{
+    img{
+       width: 350px;
+    }
+}
+
+
+.window-main{
+    box-shadow: $light_box_shadow;
+
+    .window{
+        background-color: $btn_color;
+        border-radius: 5px 5px 0 0;
+        padding: 20px 30px;
+
+        h4{
+            color: $white;
+        }
+
+    }
+    .window-bottom{
+        background-color: $white;    
+        padding: 20px 30px;
+
+        p{
+            color: $paragraph_color;
+        }
+    }
+}
+
+.pop-up{
+    box-shadow: $light_box_shadow;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+    p{
+        color: $paragraph_color;
+    }
+}
+
+
+.numbers{
+    background-color: #F0EFEF;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+
+    h1{
+        color: $btn_color  
+    }
+}
+
+.featured-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.writer{
+    display: flex;
+    align-items: center;
+
+    img{
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}
+
+.teacher{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 300px;
+    text-align: start;
+
+    span{
+        font-size: 12px;
+        color: $paragraph_color;
+        margin-right: 7px;
+    }
+}
+
+.top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 5px;
+
+    background-color: $changed;
+    border-radius: 5px;
+}
+
+
+.people-card{
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    position: relative;
+    margin-top: 100px;
+    
+    img{
+        width: 120px;
+        border-radius: 50%;
+        position: absolute;
+        right: 120px;
+        bottom: 80%;
+    }
+}
